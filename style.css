@@ -82,4 +82,48 @@ nav {
   padding: 0 20px;
 }
 
-nav-link-1
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+body {
+    background-color: #06294a;
+    color: white;
+}
+.container {
+  max-width: 900px;
+
+}
+.btn {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.primary {
+    background-color: #8fd6c7;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.secondary {
+    background-color: #223c5c;
+    color: white;
+    border: 1px solid #3c587a;
+}
+
+.description {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 800px;
+}
